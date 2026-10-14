@@ -1,0 +1,49 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.venv/
+.venv-*/
+venv/
+env/
+ENV/
+
+# Local tooling and editor files
+.env
+.env.*
+.vscode/*
+!.vscode/settings.json
+.idea/
+.claude/
+.codex/
+.agents/
+
+# Generated ML outputs and local experiments
+artifacts/
+artifact/
+runs/
+data/
+models/*.pkl
+models/*.pt
+models/*.onnx
+*.pkl
+*.cache
+*.avi
+*.mp4
+*.webm
+
+# Datasets and compressed archives
+Machine Learning/
+dataset sibi/
+Sign-Language-Indonesia.v2i.yolov8/
+Sign-Language-Indonesia.v4i.yolov8/
+*.zip
+*.rar
+
+# Duplicate exported project copy
+202251271_FIRMAN HIDAYATULLAH/
+
+# OS files
+Thumbs.db
+Desktop.ini
